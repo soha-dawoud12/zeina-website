@@ -1,0 +1,164 @@
+#why-zeina ,.blog ,.team{
+  h2{
+    font-size: 30px;
+
+
+    }
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+
+    }
+
+
+}
+
+
+.line-center{
+
+      position: relative;
+      margin-bottom: 45px;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 60px;
+        height: 2px;
+        left: 48%;
+
+        background-color: var(--primary);
+
+      }
+
+
+}
+
+.line-zero {
+
+  position: relative;
+  margin-bottom: 45px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 60px;
+    height: 2px;
+    right: 0;
+
+    background-color: var(--primary);
+
+  }
+
+}
+
+
+.our-partners{
+  img{
+    max-width: 170px;
+    max-height: 60px;
+  }
+
+
+  .our-loges{
+    @media (min-width: 992px){
+      flex: 0 0 16.6%;
+      max-width: 16.6%;
+    }
+
+
+  }
+}
+.documents{
+  .name{
+    @if($site-en){
+      margin-left: 50px;
+      margin-right:  0px;
+
+    }@else {
+      margin-right:50px;
+      margin-left: 0px;
+    }
+  }
+}
+
+.see-more{
+  img{
+    width: 100%;
+    max-height: 314px;
+    border-radius: 10px;
+  }
+}
+#blog.catalog-games{
+    img{
+      width: 100%;
+      max-height: 2021px !important;
+
+  }
+}
+
+.blog {
+  position: relative;
+
+
+  .swiper-slide {
+    .item {
+      color: #fff;
+      background-size: cover;
+      background-position: center;
+      height: 312px;
+      position: relative;
+
+
+    }
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10%;
+    z-index: 5;
+    left: 50%;
+
+    .swiper-pagination-bullet {
+      width: 13px;
+      height: 13px;
+      background-color: transparent;
+      border: 1px solid var(--success);
+      border-radius: 50px;
+      z-index: 2;
+      margin: 3px;
+
+      &-active {
+        transition-duration: 300ms;
+        background-color: var(--primary);
+        border: none;
+      }
+    }
+
+    span.swiper-pagination-bullet:focus {
+      outline: 0px;
+    }
+
+
+  }
+
+  .new-box {
+    position: absolute;
+    width: 86px;
+    height: 25px;
+    top: 25%;
+    @media (max-width: 992px) {
+      top: 19%;
+    }
+
+
+    @if ($site-en) {
+      left: 0;
+      right: 7%;
+
+    } @else {
+      left: 7%;
+    }
+  }
+
+}

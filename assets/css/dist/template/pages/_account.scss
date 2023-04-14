@@ -1,0 +1,86 @@
+.account{
+  form{
+    font-weight: bold;
+    input,select{
+      border: 1px solid #011A1A;
+    }
+
+  }
+}
+
+
+.cart{
+  .product {
+
+
+    margin: 3% auto ;
+
+    //@media (min-width: 992px)and (max-width: 1200px) {
+    //  width: 100%;
+    //
+    //
+    //  margin: 8.5% auto ;
+    //}
+
+    //@media (min-width: 570px)and (max-width: 992px) {
+    //  width: 100%;
+    //  font-size: 13px;
+    //
+    //  margin: 17% auto ;
+    //}
+    //@media (max-width: 570px) {
+    //  width: 100%;
+    //  font-size: 13px;
+    //
+    //  margin: 35% auto ;
+    //}
+
+
+  }
+}
+.delete{
+  button:hover{
+
+
+    background-color: #DF003D;
+    border: 1px solid #DF003D;
+    color: #ffffff !important;
+  }
+}
+.price{
+  font-weight: bold;
+}
+.star{
+  color: #FF0000;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.line{
+  h3{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: "";
+      background-color: var(--primary);
+      width: 20%;
+      height: 2px;
+      bottom: -12px;
+    }
+  }
+}
+
+.account{
+   .tabel-orders table .table-bordered th, .tabel-orders table .table-bordered td {
+    border: 1px solid #8dc53f !important;
+  }
+}
+
+.payment{
+  border: 1px solid #BCBCBC;
+  border-radius: 5px;
+  @if($site-en){
+  text-align: right ;
+  }@else {
+   text-align: left
+  }
+}

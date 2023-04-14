@@ -1,0 +1,29 @@
+.product-name{
+  .category{
+    span{
+      border: 1px solid #b9bbbe;
+      border-radius: 5px;
+      font-size: 16px;
+     padding: 3px;
+
+
+      display: block;
+    }
+  }
+  .add-to-cart{
+    button:hover{
+      color: #ffffff;
+      background-color: var(--primary);
+      border-color:var(--primary);
+
+      transform: scale(1.1);
+
+    }
+  }
+ .product .swiper-button-next{
+
+    left: -10px !important;
+
+  }
+
+}

@@ -1,0 +1,155 @@
+.sign{
+
+
+
+  h1{
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    margin-bottom: -8%;
+    margin-top: 12%;
+
+
+
+    @media (max-width:1024px) {
+      margin-bottom: 0%;
+      margin-top: 24%;
+
+    }
+
+    &:before{
+      position: absolute;
+      content: "";
+      width: 23%;
+      height: 1.5px;
+      left: 13%;
+      background-color: #b9bbbe;
+      bottom: 25%;
+      @media (max-width:1040px) {
+        width:  19%;
+
+      }
+      @media (max-width:340px) {
+        width: 3.5rem;
+
+      }
+    }
+    &:after{
+      position: absolute;
+      content: "";
+      width: 23%;
+      height: 1.5px;
+      right: 13%;
+      background-color: #b9bbbe;
+      bottom: 25%;
+      @media (max-width:1040px) {
+        width: 19%;
+
+      }
+      @media (max-width:340px) {
+        width: 3.5rem;
+
+      }
+    }
+    @media (max-width:1024px) {
+    font-size: 19px;
+
+    }
+  }
+
+  form{
+    input{
+      border:1px solid  var(--success) !important;
+    }
+    input::placeholder{
+      color: #1d2124;
+
+
+
+    }
+
+  }
+  .sign-btn{
+    button{
+      border: 1px solid var(--success);
+
+        color:var(--success) !important;
+
+      &:hover{
+        border:none;
+        color: white !important;
+      }
+    }
+  }
+  .forget-password{
+   position: relative;
+    font-size: 20px;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 35%;
+      height: 1.5px;
+      left: 0%;
+      background-color: #b9bbbe;
+      bottom: 29%;
+      @media (max-width:768px) {
+        width: 30%;
+
+      }
+    }
+    &:after{
+      position: absolute;
+      content: "";
+      width: 35%;
+      height: 1.5px;
+      right: 0%;
+      background-color: #b9bbbe;
+      bottom: 29%;
+      @media (max-width:768px) {
+        width: 30%;
+
+      }
+  }
+    @media (max-width:1024px) {
+      font-size: 14px;
+
+    }
+  }
+  footer{
+    //margin-top: 20px;
+  }
+}
+
+#forget-password{
+  h1{
+    &:before{
+      position: absolute;
+      content: "";
+      width: 18%;
+      height: 1.5px;
+      left: 13%;
+      background-color: #b9bbbe;
+      bottom: 25%;
+      @media (max-width:1200px) {
+        width:  14%;
+
+      }
+      @media (max-width:340px) {
+        width: 3.5rem;
+
+      }
+    }
+    &:after{
+      position: absolute;
+      content: "";
+      width: 18%;
+      height: 1.5px;
+      right: 13%;
+      background-color: #b9bbbe;
+      bottom: 25%;
+      @media (max-width:1200px) {
+        width: 14%;
+
+      }}}
+
+}
